@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import Logo from "./Logo";
 import NavList from "./NavList";
+import ContactSection from "@/components/guides/ContactSection";
 
 interface Props {
   open: boolean;
@@ -13,9 +14,10 @@ interface Props {
 export default function Sidebar({ open, onClose }: Props) {
   return (
     <>
-      <aside className="fixed inset-y-0 left-0 z-30 hidden w-72 flex-col gap-8 border-r border-white/10 bg-ink-800/80 p-6 backdrop-blur lg:flex">
+      <aside className="fixed inset-y-0 left-0 z-30 hidden w-72 flex-col gap-6 overflow-y-auto border-r border-white/10 bg-ink-800/80 p-6 backdrop-blur lg:flex">
         <Logo />
         <NavList idPrefix="desktop" />
+        <ContactSection />
         <p className="mt-auto text-xs leading-relaxed text-mute">
           Konten edukasi umum, bukan pengganti saran medis profesional. Setiap orang berbeda.
         </p>
@@ -36,7 +38,7 @@ export default function Sidebar({ open, onClose }: Props) {
               role="dialog"
               aria-modal="true"
               aria-label="Menu navigasi"
-              className="fixed inset-y-0 left-0 z-50 flex w-72 max-w-[85vw] flex-col gap-8 bg-ink-800 p-6"
+              className="fixed inset-y-0 left-0 z-50 flex w-72 max-w-[85vw] flex-col gap-6 overflow-y-auto bg-ink-800 p-6"
               initial={{ x: "-100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
@@ -49,6 +51,7 @@ export default function Sidebar({ open, onClose }: Props) {
                 </button>
               </div>
               <NavList idPrefix="mobile" />
+              <ContactSection />
             </motion.aside>
           </div>
         )}

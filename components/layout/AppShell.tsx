@@ -52,7 +52,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-8 sm:py-12">{children}</main>
         <footer className="border-t border-white/10 px-4 py-8 text-sm text-mute sm:px-8">
           <p className="mx-auto max-w-6xl">
-            LOOKSMAX membagikan edukasi umum tentang perawatan diri. Situs ini tidak memberi peringkat pada penampilan dan bukan pengganti saran medis.
+            Website ini membagikan edukasi umum tentang perawatan diri. Situs ini tidak memberi peringkat pada penampilan dan bukan pengganti saran medis.   SEMANGAT GLOW UP NYA - Frido (developer)
           </p>
         </footer>
       </div>

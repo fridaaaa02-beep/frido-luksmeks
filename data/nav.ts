@@ -10,7 +10,7 @@ export interface NavItem {
 
 export const navItems: NavItem[] = [
   { href: "/", label: "Beranda", blurb: "Dasbor dan pengingat harian", icon: Home },
-  { href: "/face", label: "Wajah & Perawatan Kulit", blurb: "Jenis kulit, rutinitas, tabir surya, dan pelindung kulit", icon: Sparkles },
+  { href: "/face", label: "Wajah & Perawatan Kulit", blurb: "Jenis kulit, rutinitas, sunscreen, dan pelindung kulit", icon: Sparkles },
   { href: "/hair", label: "Panduan Rambut", blurb: "12 pola rambut dan cara merawatnya", icon: Scissors },
   { href: "/posture", label: "Postur & Ergonomi", blurb: "Duduk, berdiri, dan menata meja dengan nyaman", icon: Armchair },
   { href: "/movement", label: "Aktivitas & Pemulihan", blurb: "Pemanasan, latihan kekuatan, kardio, istirahat, dan tidur", icon: Activity },

@@ -17,7 +17,7 @@ export default function HairPage() {
         Sistem 1A hingga 4C adalah panduan umum untuk pola ikal, bukan ukuran kualitas rambut. Semua jenis rambut bisa sehat. Konsultasikan nyeri kulit kepala, luka, atau kerontokan mendadak dengan tenaga kesehatan.
       </Disclaimer>
 
-      <SectionTitle title="Jelajahi Jenis Rambut" description="Cari, saring berdasarkan kelompok, lalu pilih pola untuk membaca panduan perawatannya." />
+      <SectionTitle title="Jelajahi Jenis Rambut" description="Cari dan pilih pola rambut untuk melihat panduan perawatan serta saran potongan yang sesuai." />
       <HairExplorer />
 
       <SectionTitle title="Lebih dari sekadar pola" description="Pola hanyalah salah satu aspek rambut. Topik berikut memberi gambaran yang lebih lengkap." />

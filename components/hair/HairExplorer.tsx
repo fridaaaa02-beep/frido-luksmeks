@@ -21,7 +21,7 @@ const groupLabels: Record<Filter, string> = {
 
 function matches(h: HairType, q: string): boolean {
   if (!q) return true;
-  const hay = [h.id, h.name, h.group, h.pattern, ...h.characteristics, ...h.care, ...h.styling].join(" ").toLowerCase();
+  const hay = [h.id, h.name, h.group, h.pattern, ...h.characteristics, ...h.care, ...h.haircuts, ...h.styling].join(" ").toLowerCase();
   return q
     .toLowerCase()
     .split(/\s+/)
@@ -55,7 +55,7 @@ export default function HairExplorer() {
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
       <div>
-        <SearchInput value={query} onChange={setQuery} placeholder="Cari pola, misalnya mengembang, 3B, mengurai kusut" label="Cari jenis rambut" />
+        <SearchInput value={query} onChange={setQuery} placeholder="Cari tipe rambut atau potongan, misalnya 3B, bob, layer" label="Cari jenis rambut" />
         <div className="mt-3 flex flex-wrap gap-2">
           {(["All", ...hairGroups] as Filter[]).map((g) => (
             <Chip key={g} active={filter === g} onClick={() => setFilter(g)}>
@@ -118,6 +118,7 @@ export default function HairExplorer() {
                 <Section title="Perawatan umum"><BulletList items={selected.care} /></Section>
                 <Section title="Memilih sampo"><p className="text-sm text-bone/90">{selected.shampoo}</p></Section>
                 <Section title="Kondisioner"><p className="text-sm text-bone/90">{selected.conditioner}</p></Section>
+                <Section title="Saran potongan rambut"><BulletList items={selected.haircuts} /></Section>
                 <Section title="Saran penataan"><BulletList items={selected.styling} /></Section>
                 <Section title="Mengurai kusut"><p className="text-sm text-bone/90">{selected.detangling}</p></Section>
                 <Section title="Kesalahan umum"><BulletList items={selected.mistakes} /></Section>

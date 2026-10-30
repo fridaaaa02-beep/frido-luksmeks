@@ -7,19 +7,19 @@ export const guides: Guide[] = [
     excerpt: "Tiga langkah cukup bagi kebanyakan orang: bersihkan, lembapkan, lindungi.",
     related: ["understanding-spf", "skin-barrier-basics", "common-skincare-mistakes"],
     sections: [
-      { heading: "Mulai dengan tiga langkah", body: ["Rutinitas tidak perlu panjang agar efektif. Pembersih lembut, pelembap yang sesuai dengan kulit, dan tabir surya harian sudah mencakup kebutuhan dasar kebanyakan orang.", "Tambahkan produk hanya jika ada alasan khusus, seperti jerawat, kulit kering, atau noda gelap. Tambahkan satu per satu."] },
-      { heading: "Pagi dan malam", body: ["Pada pagi hari, bilas atau bersihkan wajah, gunakan pelembap, lalu tabir surya. Pada malam hari, bersihkan wajah dengan baik, terutama jika memakai tabir surya, lalu gunakan pelembap.", "Konsistensi lebih penting daripada harga. Rutinitas dasar yang dilakukan setiap hari lebih baik daripada rutinitas rumit yang hanya sesekali dilakukan."] },
+      { heading: "Mulai dengan tiga langkah", body: ["Rutinitas tidak perlu panjang agar efektif. Pembersih lembut, pelembap yang sesuai dengan kulit, dan sunscreen harian sudah mencakup kebutuhan dasar kebanyakan orang.", "Tambahkan produk hanya jika ada alasan khusus, seperti jerawat, kulit kering, atau noda gelap. Tambahkan satu per satu."] },
+      { heading: "Pagi dan malam", body: ["Pada pagi hari, bilas atau bersihkan wajah, gunakan pelembap, lalu sunscreen. Pada malam hari, bersihkan wajah dengan baik, terutama jika memakai sunscreen, lalu gunakan pelembap.", "Konsistensi lebih penting daripada harga. Rutinitas dasar yang dilakukan setiap hari lebih baik daripada rutinitas rumit yang hanya sesekali dilakukan."] },
       { heading: "Beri waktu", body: ["Sel kulit beregenerasi dalam hitungan minggu, bukan hari. Jalankan rutinitas baru setidaknya selama empat hingga delapan minggu sebelum menilai manfaatnya. Jika terjadi iritasi, hentikan penggunaan produk."] },
     ],
   },
   {
-    slug: "understanding-spf", title: "Memahami SPF dan tabir surya", category: "Face",
+    slug: "understanding-spf", title: "Memahami SPF dan sunscreen", category: "Face",
     excerpt: "Arti angka SPF, jumlah pemakaian, dan seberapa sering perlu dioleskan kembali.",
     related: ["build-a-simple-skincare-routine", "skin-barrier-basics", "common-skincare-mistakes"],
     sections: [
-      { heading: "Arti SPF", body: ["SPF mengukur perlindungan tabir surya terhadap sinar UVB yang menyebabkan kulit terbakar. Label 'spektrum luas' berarti produk juga melindungi dari sinar UVA yang berkontribusi pada penuaan kulit.", "SPF 30 menghalangi sekitar 97 persen UVB dan SPF 50 sekitar 98 persen. Angka yang lebih tinggi memberi sedikit perlindungan tambahan, jadi cara mengoleskannya lebih penting daripada angkanya."] },
-      { heading: "Jumlah dan frekuensi pemakaian", body: ["Kebanyakan orang memakai terlalu sedikit. Panduan umum untuk wajah dan leher adalah sekitar dua ruas jari. Oleskan kembali kira-kira setiap dua jam saat terik dan setelah berenang atau banyak berkeringat.", "Tabir surya bekerja lebih baik jika disertai berteduh, memakai topi, dan mengenakan pakaian pelindung."] },
-      { heading: "Pilih yang nyaman digunakan", body: ["Tabir surya mineral dan kimia sama-sama efektif. Gel dan cairan sering cocok untuk kulit berminyak, krim cocok untuk kulit kering, dan produk tanpa pewangi cocok untuk kulit sensitif. Tabir surya terbaik adalah yang nyaman kamu pakai."] },
+      { heading: "Arti SPF", body: ["SPF mengukur perlindungan sunscreen terhadap sinar UVB yang menyebabkan kulit terbakar. Label 'spektrum luas' berarti produk juga melindungi dari sinar UVA yang berkontribusi pada penuaan kulit.", "SPF 30 menghalangi sekitar 97 persen UVB dan SPF 50 sekitar 98 persen. Angka yang lebih tinggi memberi sedikit perlindungan tambahan, jadi cara mengoleskannya lebih penting daripada angkanya."] },
+      { heading: "Jumlah dan frekuensi pemakaian", body: ["Kebanyakan orang memakai terlalu sedikit. Panduan umum untuk wajah dan leher adalah sekitar dua ruas jari. Oleskan kembali kira-kira setiap dua jam saat terik dan setelah berenang atau banyak berkeringat.", "Sunscreen bekerja lebih baik jika disertai berteduh, memakai topi, dan mengenakan pakaian pelindung."] },
+      { heading: "Pilih yang nyaman digunakan", body: ["Sunscreen mineral dan kimia sama-sama efektif. Gel dan cairan sering cocok untuk kulit berminyak, krim cocok untuk kulit kering, dan produk tanpa pewangi cocok untuk kulit sensitif. Sunscreen terbaik adalah yang nyaman kamu pakai."] },
     ],
   },
   {
@@ -29,7 +29,7 @@ export const guides: Guide[] = [
     sections: [
       { heading: "Apa itu lapisan pelindung kulit", body: ["Lapisan pelindung kulit adalah bagian terluar kulit. Lapisan ini menjaga air tetap di dalam dan menghalau iritan, seperti dinding yang tersusun dari sel kulit dan lemak seperti ceramide."] },
       { heading: "Tanda lapisan pelindung terganggu", body: ["Kulit terasa kencang, perih, memerah, mengelupas, atau produk yang biasanya nyaman tiba-tiba terasa mengiritasi. Terlalu sering mencuci, eksfoliasi keras, air sangat panas, serta cuaca dingin dan kering merupakan pemicu umum."] },
-      { heading: "Cara mendukung lapisan pelindung", body: ["Sederhanakan rutinitas: gunakan pembersih lembut, pelembap dengan bahan seperti ceramide atau gliserin, dan tabir surya. Hentikan sementara bahan aktif kuat hingga kulit terasa tenang. Jika iritasi berlanjut, konsultasikan dengan tenaga kesehatan."] },
+      { heading: "Cara mendukung lapisan pelindung", body: ["Sederhanakan rutinitas: gunakan pembersih lembut, pelembap dengan bahan seperti ceramide atau gliserin, dan sunscreen. Hentikan sementara bahan aktif kuat hingga kulit terasa tenang. Jika iritasi berlanjut, konsultasikan dengan tenaga kesehatan."] },
     ],
   },
   {
@@ -38,7 +38,7 @@ export const guides: Guide[] = [
     related: ["skin-barrier-basics", "build-a-simple-skincare-routine", "understanding-spf"],
     sections: [
       { heading: "Terlalu banyak melakukan perawatan", body: ["Terlalu banyak produk, asam kuat, atau lulur dapat mengiritasi kulit. Jika kulit memerah atau terasa sakit, mengurangi produk sering kali menjadi solusinya."] },
-      { heading: "Melewatkan langkah dasar", body: ["Tidak memakai tabir surya atau pelembap, serta tidak membersihkan tabir surya pada malam hari adalah kekurangan yang umum. Semuanya mudah diperbaiki."] },
+      { heading: "Melewatkan langkah dasar", body: ["Tidak memakai sunscreen atau pelembap, serta tidak membersihkan sunscreen pada malam hari adalah kekurangan yang umum. Semuanya mudah diperbaiki."] },
       { heading: "Meniru orang lain", body: ["Produk yang cocok untuk teman belum tentu cocok untukmu. Mulailah dari jenis dan tujuan perawatan kulitmu, lalu kenalkan produk baru secara perlahan dengan uji tempel."] },
     ],
   },
@@ -157,7 +157,7 @@ export const guides: Guide[] = [
     excerpt: "Kebiasaan kecil yang diulang lebih baik daripada perubahan besar sekaligus.",
     related: ["sleep-and-recovery-basics", "moving-through-your-workday", "build-a-simple-skincare-routine"],
     sections: [
-      { heading: "Mulai dari hal kecil", body: ["Pilih satu atau dua kebiasaan dan kaitkan dengan kegiatan yang sudah rutin dilakukan. Contohnya, gunakan tabir surya setelah menyikat gigi."] },
+      { heading: "Mulai dari hal kecil", body: ["Pilih satu atau dua kebiasaan dan kaitkan dengan kegiatan yang sudah rutin dilakukan. Contohnya, gunakan sunscreen setelah menyikat gigi."] },
       { heading: "Catat dengan santai", body: ["Daftar kebiasaan dapat menunjukkan perkembangan, tetapi tidak masalah jika melewatkan satu hari. Lanjutkan rutinitas esok hari tanpa menyalahkan diri sendiri."] },
       { heading: "Perawatan sehat, bukan kesempurnaan", body: ["Merawat diri berarti merasa nyaman dan menjaga kesehatan. Tidak ada penampilan ideal yang harus dikejar. Jika rutinitas menimbulkan stres, aturan kaku, atau kekhawatiran tentang tubuh, berhentilah sejenak dan bicarakan dengan orang tepercaya atau tenaga kesehatan."] },
     ],

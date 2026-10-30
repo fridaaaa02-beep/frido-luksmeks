@@ -15,6 +15,7 @@ export interface HairType {
   care: string[];
   shampoo: string;
   conditioner: string;
+  haircuts: string[];
   styling: string[];
   detangling: string;
   mistakes: string[];

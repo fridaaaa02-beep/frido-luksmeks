@@ -7,7 +7,7 @@ export const habitGroups: HabitGroup[] = [
   ] },
   { id: "skincare", title: "Dasar perawatan kulit", icon: "sparkles", description: "Lakukan dengan sederhana dan konsisten.", items: [
     { id: "moisturize-am", label: "Gunakan pelembap", tip: "Pilih tekstur yang sesuai dengan jenis kulitmu." },
-    { id: "spf", label: "Gunakan tabir surya pada kulit yang terpapar", tip: "Oleskan secukupnya dan ulangi saat berada di luar." },
+    { id: "spf", label: "Gunakan sunscreen pada kulit yang terpapar", tip: "Oleskan secukupnya dan ulangi saat berada di luar." },
   ] },
   { id: "haircare", title: "Perawatan rambut", icon: "scissors", description: "Kulit kepala sehat, rambut pun sehat.", items: [
     { id: "hair-style", label: "Sisir atau tata rambut dengan lembut", tip: "Mulai dari ujung rambut jika kusut." },
@@ -35,7 +35,7 @@ export const habitGroups: HabitGroup[] = [
   ] },
   { id: "evening-hygiene", title: "Kebersihan malam", icon: "bath", description: "Akhiri hari dengan baik.", items: [
     { id: "teeth-pm", label: "Sikat dan bersihkan sela gigi", tip: "Gunakan benang gigi sekali sehari jika memungkinkan." },
-    { id: "wash-pm", label: "Bersihkan wajah dan gunakan pelembap", tip: "Bersihkan tabir surya dan kotoran dengan lembut." },
+    { id: "wash-pm", label: "Bersihkan wajah dan gunakan pelembap", tip: "Bersihkan sunscreen dan kotoran dengan lembut." },
   ] },
 ];
 
@@ -48,7 +48,7 @@ export const dailyReminders: string[] = [
   "Perawatan lembut lebih baik daripada yang keras. Rawat kulit dan rambutmu dengan baik.",
   "Jalan kaki selama sepuluh menit juga termasuk aktivitas fisik.",
   "Cuci tangan dan sikat gigi, lalu nikmati rasa segar.",
-  "Kamu tidak membutuhkan sepuluh produk. Pembersih, pelembap, dan tabir surya adalah awal yang baik.",
+  "Kamu tidak membutuhkan sepuluh produk. Pembersih, pelembap, dan sunscreen adalah awal yang baik.",
   "Ukuran yang pas dan kenyamanan membuat pakaian terasa lebih baik. Kenakan yang membuatmu nyaman.",
   "Periksa postur: bahu rileks, kaki tertopang, dan layar setinggi mata.",
   "Coba ubah satu kebiasaan kecil minggu ini, bukan semuanya sekaligus.",

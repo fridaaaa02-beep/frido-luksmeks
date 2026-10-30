@@ -54,9 +54,21 @@ export const postureTopics: Topic[] = [
     points: [
       "Angkat ponsel mendekati tinggi mata agar tidak terus menunduk.",
       "Jaga kepala kira-kira sejajar dengan bahu dan tidak terlalu condong ke depan.",
+      "Chin tuck: duduk atau berdiri tegak, pandang lurus, lalu geser dagu lurus ke belakang (seolah membuat dagu berlipat) tanpa menundukkan kepala. Tahan 3–5 detik, ulangi 5–10 kali dengan nyaman.",
+      "Gerakan chin tuck seharusnya lembut dan tidak nyeri. Hentikan jika menimbulkan nyeri, pusing, kesemutan, atau gejala lain; latihan ini bukan cara mengubah bentuk tulang atau pengganti pemeriksaan medis.",
       "Memutar leher dan bahu dengan lembut serta menarik dagu ke belakang dapat meredakan ketegangan.",
       "Beristirahatlah dengan mengalihkan pandangan dari layar dan menggerakkan bahu.",
       "Nyeri, kesemutan, atau kelemahan yang menetap sebaiknya diperiksa tenaga kesehatan.",
+    ],
+  },
+  {
+    id: "sleep-position", title: "Posisi tidur dan kenyamanan leher", summary: "Atur bantal dan posisi agar leher terasa netral dan nyaman.",
+    points: [
+      "Tidak ada satu posisi tidur yang paling baik untuk semua orang. Pilih posisi yang membuatmu nyaman dan tidak memperburuk keluhan.",
+      "Tidur telentang atau menyamping dapat membantu menjaga leher tetap netral. Pilih tinggi bantal yang mengisi ruang antara kepala dan kasur tanpa mendorong dagu terlalu ke dada atau membuat kepala mendongak.",
+      "Jika tidur menyamping, usahakan kepala segaris dengan tulang belakang dan bahu tidak tertindih bantal.",
+      "Tidur tengkurap sering membuat leher terputar lama; bila bangun dengan leher kaku, coba posisi lain secara bertahap.",
+      "Jika nyeri leher menetap, menjalar, disertai mati rasa atau kelemahan, konsultasikan dengan tenaga kesehatan.",
     ],
   },
   {

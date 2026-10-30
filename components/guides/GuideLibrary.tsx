@@ -23,7 +23,7 @@ export default function GuideLibrary() {
 
   return (
     <div>
-      <SearchInput value={query} onChange={setQuery} placeholder="Cari artikel, misalnya tabir surya, postur, tidur" label="Cari artikel" />
+      <SearchInput value={query} onChange={setQuery} placeholder="Cari artikel, misalnya sunscreen, postur, tidur" label="Cari artikel" />
       <div className="mt-3 flex flex-wrap gap-2">
         {(["All", ...guideCategories] as const).map((c) => (
           <Chip key={c} active={category === c} onClick={() => setCategory(c)}>{categoryLabels[c]}</Chip>
