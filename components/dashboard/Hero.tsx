@@ -17,7 +17,7 @@ export default function Hero() {
           Nyamanlah dengan kulit, rambut, dan tubuhmu.
         </h1>
         <p className="mt-5 max-w-xl text-lg text-bone/80">
-          LOOKSMAX adalah panduan praktis untuk merawat kulit dan rambut, menjaga postur, bergerak aktif, berpakaian, dan membangun kebiasaan harian. Setiap orang berbeda, dan rutinitas sehat bisa tetap sederhana.
+          FREDMAXXING adalah WEB panduan basic buat merawat kulit dan rambut, menjaga postur, bergerak aktif, berpakaian, dan membangun kebiasaan harian. Setiap orang berbeda, dan rutinitas sehat bisa tetap sederhana.
         </p>
         <div className="mt-7 flex flex-wrap gap-3">
           <Link href="/habits" className="inline-flex items-center gap-2 rounded-xl bg-lime px-5 py-3 text-sm font-medium text-ink hover:bg-lime-dim">
