@@ -1,0 +1,36 @@
+import type { Outfit, Topic } from "@/types";
+
+export const styleTopics: Topic[] = [
+  { id: "personal-style", title: "Memahami gaya pribadi", summary: "Gaya adalah cara mengekspresikan diri, bukan buku aturan.",
+    points: ["Perhatikan pakaian yang membuatmu nyaman dan alasannya.", "Kumpulkan beberapa foto atau ide yang kamu sukai, lalu cari pola warna, bentuk, dan bahan.", "Gaya dapat disesuaikan dengan keseharian, iklim, anggaran, dan budaya.", "Tren datang dan pergi. Kenyamanan dan rasa percaya diri bertahan lama."] },
+  { id: "fit", title: "Ukuran dan kenyamanan pakaian", summary: "Ukuran yang pas lebih penting daripada harga atau merek.",
+    points: ["Bahu: jahitan sebaiknya berada dekat tepi bahu.", "Lengan: ujung lengan kemeja dan jaket sebaiknya mencapai sekitar pergelangan tangan.", "Celana: nyaman di pinggang dengan panjang yang sesuai dengan sepatu.", "Kamu sebaiknya bisa duduk, menjangkau, dan berjalan dengan nyaman.", "Penjahit sering kali dapat menyesuaikan keliman dan lengan dengan biaya terjangkau."] },
+  { id: "color", title: "Paduan warna", summary: "Aturan sederhana yang mudah diterapkan.",
+    points: ["Warna netral (hitam, putih, abu-abu, biru tua, krem, zaitun) mudah dipadukan.", "Gunakan satu warna aksen, misalnya kemeja cerah atau sepatu berwarna.", "Monokrom berarti memadukan beberapa nuansa dari satu warna dan sering terlihat rapi.", "Warna komplementer (biru dan jingga, hijau dan merah anggur) dapat serasi jika salah satunya lebih dominan.", "Pilih warna yang kamu suka. Panduan warna berdasarkan rona kulit hanya saran."] },
+  { id: "coordination", title: "Padu padan pakaian", summary: "Buat semua bagian terlihat serasi.",
+    points: ["Pilih satu pakaian utama, lalu padukan item lain di sekitarnya.", "Seimbangkan proporsi: atasan longgar dengan bawahan lebih pas, atau sebaliknya.", "Padukan item kulit seperti ikat pinggang dan sepatu.", "Campur tekstur seperti katun, denim, wol, dan rajut untuk memberi dimensi.", "Batasi motif menjadi satu atau dua dalam satu penampilan."] },
+  { id: "shoe-care", title: "Perawatan sepatu", summary: "Perawatan yang baik membuat sepatu lebih awet.",
+    points: ["Gunakan sepatu secara bergantian agar setiap pasang sempat kering.", "Bersihkan sepatu olahraga dengan sikat lembut, sabun ringan, dan air. Keringkan alami jauh dari panas.", "Sikat sepatu kulit, gunakan kondisioner, dan semir sesekali.", "Gunakan penyangga sepatu untuk menjaga bentuk dan menyerap kelembapan.", "Ganti sol dalam yang aus dan perbaiki sol sepatu berkualitas jika diperlukan."] },
+  { id: "maintenance", title: "Perawatan pakaian", summary: "Cuci dengan lembut dan simpan dengan baik.",
+    points: ["Baca petunjuk perawatan dan pisahkan pakaian berdasarkan warna.", "Cuci dengan suhu lebih rendah dan balik pakaian gelap sebelum dicuci.", "Keringkan pakaian rajut secara mendatar agar tidak melar.", "Gunakan gantungan yang sesuai untuk jaket dan kemeja.", "Segera perbaiki kerusakan kecil seperti kancing yang longgar."] },
+  { id: "grooming", title: "Perawatan diri dasar", summary: "Rutinitas yang bersih dan sederhana.",
+    points: ["Mandi secara teratur, gunakan deodoran, sikat gigi, dan bersihkan sela gigi.", "Jaga kuku tetap pendek dan bersih.", "Potong rambut secara berkala sesuai gaya yang kamu inginkan.", "Jika bercukur, gunakan pisau cukur bersih dan tajam, cukur searah tumbuh rambut, lalu gunakan pelembap.", "Cuci pakaian dan handuk secara teratur."] },
+  { id: "wardrobe", title: "Membangun lemari pakaian praktis", summary: "Lebih sedikit pakaian, tetapi lebih baik dan serbaguna.",
+    points: ["Mulailah dengan pakaian dasar serbaguna: kemeja putih dan biru, kaus, sweter, jins, chino, dan jaket.", "Tambahkan sepatu olahraga putih, sepatu formal, dan sepatu harian yang nyaman.", "Pilih pakaian yang sesuai dengan keseharianmu. Kebutuhan pelajar dan pekerja kantoran berbeda.", "Tambahkan satu pakaian baru setiap kali dan pastikan cocok dengan setidaknya tiga padu padan.", "Pakaian bekas layak pakai dan barang diskon adalah cara yang lebih berkelanjutan untuk melengkapi lemari."] },
+];
+
+export const outfits: Outfit[] = [
+  { id: "casual-1", level: "Casual", name: "Santai akhir pekan", occasion: "Keperluan sehari-hari, bertemu teman, hari santai", pieces: ["Kaus leher bulat polos", "Jins potongan lurus", "Sepatu olahraga putih", "Kemeja luaran ringan"], palette: ["#e9eee6", "#2b3a55", "#8b9a7b", "#c9b79c"], notes: "Warna netral dengan satu aksen lembut membuat pakaian mudah dikenakan." },
+  { id: "casual-2", level: "Casual", name: "Cuaca hangat", occasion: "Hari panas, bepergian", pieces: ["Kemeja linen atau katun", "Celana pendek atau chino ringan", "Sepatu kanvas", "Topi atau kacamata hitam"], palette: ["#f2efe4", "#7fa6a1", "#3d4a3b", "#d9a05b"], notes: "Bahan yang menyerap udara dan warna terang terasa nyaman saat cuaca panas." },
+  { id: "smart-1", level: "Smart casual", name: "Tampilan kantor rapi", occasion: "Bekerja, rapat, kencan", pieces: ["Kemeja Oxford", "Celana chino", "Sepatu kulit kasual atau loafer", "Ikat pinggang senada dengan sepatu"], palette: ["#dfe6ee", "#3b4b3a", "#6b4f3a", "#1c2430"], notes: "Masukkan kemeja atau cukup bagian depannya, dan pilih warna sederhana." },
+  { id: "smart-2", level: "Smart casual", name: "Gaya berlapis untuk malam hari", occasion: "Makan malam, acara", pieces: ["Sweter rajut halus", "Kemeja berkerah di bagian dalam", "Celana panjang gelap", "Sepatu bot Chelsea"], palette: ["#1c2430", "#6b5b4a", "#c8c2b4", "#2d4a3a"], notes: "Perpaduan tekstur menambah daya tarik tanpa warna mencolok." },
+  { id: "formal-1", level: "Formal", name: "Setelan klasik", occasion: "Wawancara, pernikahan, upacara", pieces: ["Setelan biru tua atau abu-abu arang", "Kemeja putih atau biru muda", "Dasi sederhana", "Sepatu formal kulit"], palette: ["#1b2a41", "#e9eee6", "#4a1d2b", "#2a2a2a"], notes: "Kesesuaian pada bahu paling penting. Serasikan ikat pinggang dan sepatu." },
+  { id: "formal-2", level: "Formal", name: "Formal modern", occasion: "Acara malam", pieces: ["Blazer yang pas", "Celana panjang senada", "Kemeja rapi", "Sepatu mengilap"], palette: ["#262b2a", "#d7d2c4", "#6d7a63", "#8c5a3c"], notes: "Warna gelap yang pas dengan aksen lembut terlihat elegan." },
+];
+
+export const colorCombos: { name: string; colors: { name: string; hex: string }[]; why: string }[] = [
+  { name: "Biru tua, putih, cokelat muda", colors: [{ name: "Biru tua", hex: "#1b2a41" }, { name: "Putih", hex: "#e9eee6" }, { name: "Cokelat muda", hex: "#c9b79c" }], why: "Kombinasi klasik yang cocok untuk suasana santai hingga rapi." },
+  { name: "Zaitun, krem, cokelat", colors: [{ name: "Zaitun", hex: "#6b7a4b" }, { name: "Krem", hex: "#efe8d6" }, { name: "Cokelat", hex: "#6b4f3a" }], why: "Warna bumi terasa tenang dan hangat." },
+  { name: "Abu-abu arang, biru langit, putih", colors: [{ name: "Abu-abu arang", hex: "#3a3f3d" }, { name: "Biru langit", hex: "#9fb9d0" }, { name: "Putih", hex: "#e9eee6" }], why: "Warna netral bernuansa sejuk dengan aksen cerah." },
+  { name: "Merah anggur, abu-abu, biru tua", colors: [{ name: "Merah anggur", hex: "#6b2a3a" }, { name: "Abu-abu", hex: "#9aa0a0" }, { name: "Biru tua", hex: "#1b2a41" }], why: "Palet yang lebih kaya untuk suasana musim gugur dan malam hari." },
+];
